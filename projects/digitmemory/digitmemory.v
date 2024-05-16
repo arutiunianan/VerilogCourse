@@ -2,13 +2,13 @@ module digitmemory (
     input wire clk,
     input wire reset,
     input wire writebutt,
-	 input wire readbutt,
+	input wire readbutt,
     input wire [2:0] switch_address,
     input wire [7:0] switch_value,
     output wire [7:0] indicate_led,
-	 output wire [6:0] digit_addr,
-	 output wire [6:0] digit_number1,
-	 output wire [6:0] digit_number2
+	output wire [6:0] digit_addr,
+	output wire [6:0] digit_number1,
+	output wire [6:0] digit_number2
 );
 
 wire writepush;
